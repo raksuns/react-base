@@ -1,0 +1,11 @@
+Build failed with 1 error:
+error: Cannot use plugins in synchronous API calls
+Error: Build failed with 1 error:
+error: Cannot use plugins in synchronous API calls
+    at fakeBuildError (/Users/raks/reacts/clean-architecture-react-typescript/node_modules/esbuild/lib/main.js:1833:17)
+    at validateBuildSyncOptions (/Users/raks/reacts/clean-architecture-react-typescript/node_modules/esbuild/lib/main.js:1846:13)
+    at Object.buildSync (/Users/raks/reacts/clean-architecture-react-typescript/node_modules/esbuild/lib/main.js:1878:7)
+    at Object.buildSync (/Users/raks/reacts/clean-architecture-react-typescript/node_modules/esbuild/lib/main.js:1633:32)
+    at FSWatcher.buildJs (/Users/raks/reacts/clean-architecture-react-typescript/build/build.js:52:13)
+    at FSWatcher.emit (events.js:315:20)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:186:12)
