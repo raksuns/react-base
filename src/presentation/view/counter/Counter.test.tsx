@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, expect, it } from "@jest/globals"
-import * as React from "react";
+import * as React from 'react';
 import Counter, { doIncrement } from "./Counter";
 import { cleanup, fireEvent, render } from '@testing-library/react';
 

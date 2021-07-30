@@ -10,6 +10,7 @@
     "typescript": "^4.3.5"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@types/jest": "^26.0.24",
     "@types/react-test-renderer": "^17.0.1",
